@@ -1,0 +1,59 @@
+.my-modal-windows{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.main-modal-btn{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(251,130,0,1) 100%);   
+}
+
+.main-modal-btn:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.my-modal-header{
+    background: #ffc107;
+    color:white;
+}
+.my-footer{
+    margin: 0 auto;
+}
+
+.brd{
+border-top: 1px solid rgba(0,0,0,.2);
+width: 100%;
+}
+
+.btn-close{
+    opacity: 1;
+}
+
+.btn-style{
+    font-size: 13px;
+    height: 33px;
+}
+.left-btn{
+    width: 120px;
+}
+.right-btn{
+    width: 110px;
+}
+.modal-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.modal-about{
+    margin: 0 30px 0 30px;
+}
+.modal-img-title{
+    font-size: 20px;
+}
+.modal-profession{
+    font-size: 12px;
+}
